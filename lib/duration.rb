@@ -1,7 +1,7 @@
 require 'support'
 
 class Duration
-  VERSION = '0.0.1'
+  VERSION = '0.1.0'
   FIELDS = [:years, :months, :days, :hours, :minutes, :seconds]
   LETTERS = 'YMDHMS'
   OPTIONS = [:accuracy, :frac_digits, :frac_accuracy, :frac_sep, :alter, :alter_sep]
