@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'duration/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = 'duration'
+  gem.name          = 'iso-duration'
   gem.version       = Duration::VERSION
   gem.authors       = ['Alexey Ovchinnikov']
   gem.email         = ['alexiss@cybernetlab.ru']
   gem.description   = %q{describes time duration}
   gem.summary       = %q{describes time duration, conformed to ISO-8601 2004}
-  gem.homepage      = ''
+  gem.homepage      = 'https://github.com/cybernetlab/duration'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
